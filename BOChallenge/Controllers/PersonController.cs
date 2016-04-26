@@ -12,7 +12,7 @@ namespace BOChallenge.Controllers
         // GET: api/Person
         public IHttpActionResult Get()
         {
-            return Ok(new {FirstName = "Deniz", LastName = "Said", Email = "deniz@dsitmanagement.com"});
+            return Ok(new {FirstName = "Deniz", LastName = "Said", Email = "deniz@dsitmanagement.com", Github = "DenizSaid"});
         }
 
     }
