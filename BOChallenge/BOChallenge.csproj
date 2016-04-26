@@ -109,6 +109,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="apiapp.json" />
+    <None Include="Properties\PublishProfiles\BO-CloudChallenge-DS - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\BO-CloudChallenge-DS - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
